@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:wght@300;400;700;900&family=Cinzel:wght@300;400;600;800;900&family=Inter:wght@100;300;400;500;600;700;900&family=JetBrains+Mono:wght@100;300;400;500;700;800&family=Montserrat:wght@100;300;400;500;600;700;900&family=Outfit:wght@100;300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Space+Grotesk:wght@300;400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0a0a0b;
+    color: #e5e7eb;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom styles for high fidelity effects */
+.text-glow {
+  text-shadow: 0 0 8px var(--glow-color, rgba(255, 255, 255, 0.45)), 
+               0 0 20px var(--glow-color, rgba(255, 255, 255, 0.3));
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1.5px var(--stroke-color, #111);
+  color: transparent;
+}
+
+.text-stroke-neon {
+  -webkit-text-stroke: 1.5px var(--neon-color, #ff0055);
+  text-shadow: 0 0 10px var(--neon-color, #ff0055);
+}
+
+/* Custom scrollbars for professional timeline design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}

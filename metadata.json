@@ -1,0 +1,6 @@
+{
+  "name": "Typography Reel Generator",
+  "description": "Generate stunning Instagram-style viral typography reels and videos easily with AI-powered layout, audio sync, custom animations and layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
